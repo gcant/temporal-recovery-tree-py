@@ -1,7 +1,7 @@
 # temporal-recovery-tree-py
 Python implementation of efficient tree history algorithms.
 
-Sampling requires networkx as numpy.
+Sampling requires networkx and numpy.
 Full one-node marginals additionally requires mpmath.
 
 - temporal_recovery.py contains our algorithms for recovering the history of a tree.
