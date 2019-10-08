@@ -8,7 +8,6 @@ Full one-node marginals additionally requires mpmath.
 
 - boundary_sampler.py is a Python implementation of the data structure described in section 3.2.2 of:<br>
 G. St-Onge, J.-G. Young, L. Hébert-Dufresne, and L. J. Dubé, Efficient sampling of spreading processes on complex networks using a composition and rejection algorithm.<br>
-We use this to sample efficient from the boundary set.<br>
-<br>
+We use this to sample efficiently from the boundary set.<br>
 
 - full_marginal.py contains our algorithms for the one-node marginals.
