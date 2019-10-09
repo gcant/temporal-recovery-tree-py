@@ -6,7 +6,7 @@ factorial = mpmath.factorial
 
 def binom(x,y):
     if x<0 or y<0:
-        return 0.0
+        return mpmath.mpf("0.0")
     else:
         return mpmath.binomial(x,y)
 
@@ -60,7 +60,7 @@ def one_node_marginals(G):
     g = {i : {} for i in range(G.number_of_nodes())}
     for i in G.nodes():
         for j in G.neighbors(i):
-            g[i][j] = np.ones(G.number_of_nodes())*-1
+            g[i][j] = np.ones(G.number_of_nodes(), dtype=mpmath.mpf)*-1
             g[i][j][0] = 0
             g[i][j][1] = h[i][j]
     
@@ -80,7 +80,7 @@ def one_node_marginals(G):
     
     ### Compute P_i(t), one node marginals
     
-    P = np.zeros(( G.number_of_nodes(), G.number_of_nodes() ) )
+    P = np.zeros(( G.number_of_nodes(), G.number_of_nodes() ), dtype=mpmath.mpf )
     
     for i in G.nodes():
         temp = factorial(G.number_of_nodes()-1) 
@@ -95,6 +95,7 @@ def one_node_marginals(G):
                 temp += g[i][j][t] * h[j][i] * binom(G.number_of_nodes()-t-1,n[i][j]-t)
             P[i][t] = temp
 
-    return(P)
+    P = P/np.sum(P[0])
     
-
+    return(P.astype(float))
+    
