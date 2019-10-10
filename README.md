@@ -1,4 +1,5 @@
-# temporal-recovery-tree-py
+# Temporal recovery in grown trees
+
 Python implementation of efficient tree history algorithms.
 
 Sampling requires networkx and numpy.
@@ -11,3 +12,5 @@ G. St-Onge, J.-G. Young, L. Hébert-Dufresne, and L. J. Dubé, Efficient samplin
 We use this to sample efficiently from the boundary set.<br>
 
 - full_marginal.py contains our algorithms for the one-node marginals.
+
+- A C++/Python library is available at https://github.com/gstonge/fasttr
