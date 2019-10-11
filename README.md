@@ -15,7 +15,7 @@ Python implementation of efficient recovery algorithms for the history of grown 
 
 * `temporal_recovery.py` contains our algorithms for recovering the history of a tree.
 * `boundary_sampler.py` is a Python implementation of the data structure described in section 3.2.2 of ["*Efficient sampling of spreading processes on complex networks using a composition and rejection algorithm*"](https://arxiv.org/abs/1808.05859)
-* `full_marginal.py` contains our algorithms for the one-node marginals.
+* `full_marginal.py` contains code to compute the exact one-node marginals.
 * A C++/Python version of this code is available at [https://github.com/gstonge/fasttr](https://github.com/gstonge/fasttr)
 
 
@@ -29,4 +29,4 @@ arxiv:1910.XXX (2019) <br/>
 
 ## Author information
 
-Code by [George T. Cantwell](https://www.george-cantwell.com). Don't hesitate to get in touch at <gcant@umich.edu>, or via the [issues](temporal-recovery-tree-py/issues)!
+Code by [George Cantwell](https://www.george-cantwell.com). Don't hesitate to get in touch at <gcant@umich.edu>, or via the [issues](temporal-recovery-tree-py/issues)!
