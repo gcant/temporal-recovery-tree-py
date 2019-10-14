@@ -1,6 +1,6 @@
 # Temporal recovery in grown trees
 
-Python implementation of efficient recovery algorithms for the history of grown trees, introduced in "*[Recovering the past states of growing trees](https://arxiv.org/abs/1910.XXX)*".
+Python implementation of efficient recovery algorithms for the history of grown trees, introduced in "*[Recovering the past states of growing trees](https://arxiv.org/abs/1910.04788)*".
 
 
 ![](splash.png)
@@ -23,9 +23,9 @@ Python implementation of efficient recovery algorithms for the history of grown 
 
 If you use this code, please consider citing:
 
-"[*Recovering the past states of growing trees*](https://arxiv.org/abs/1910.XXX)"<br/>
+"[*Recovering the past states of growing trees*](https://arxiv.org/abs/1910.04788)"<br/>
 [G. T. Cantwell](https://www.george-cantwell.com), [G. St-Onge](https://gstonge.github.io) and [J.-G. Young](http://jgyoung.ca)<br/>
-arxiv:1910.XXX (2019) <br/>
+arxiv:1910.04788 (2019) <br/>
 
 ## Author information
 
