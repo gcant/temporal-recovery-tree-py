@@ -29,4 +29,4 @@ arxiv:1910.04788 (2019) <br/>
 
 ## Author information
 
-Code by [George Cantwell](https://www.george-cantwell.com). Don't hesitate to get in touch at <gcant@umich.edu>, or via the [issues](temporal-recovery-tree-py/issues)!
+Code by [George Cantwell](https://www.george-cantwell.com). Don't hesitate to get in touch at <gcant@umich.edu>, or via the [issues](https://github.com/gcant/temporal-recovery-tree-py/issues)!
