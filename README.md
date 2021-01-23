@@ -1,6 +1,6 @@
 # Inference and temporal recovery in grown trees
 
-Python implementation of efficient recovery algorithms for grown trees, introduced in "*[Inference, Model Selection, and the Combinatorics of Growing Trees](https://arxiv.org/abs/1910.04788)*".
+Python implementation of efficient recovery algorithms for grown trees, introduced in "*[Inference, Model Selection, and the Combinatorics of Growing Trees](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.038301)*".
 
 
 ![](splash.png)
@@ -23,9 +23,11 @@ Python implementation of efficient recovery algorithms for grown trees, introduc
 
 If you use this code, please consider citing:
 
-"[*Inference, Model Selection, and the Combinatorics of Growing Trees*](https://arxiv.org/abs/1910.04788)"<br/>
+"[*Inference, Model Selection, and the Combinatorics of Growing Trees*](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.038301)"<br/>
 [G. T. Cantwell](https://www.george-cantwell.com), [G. St-Onge](https://gstonge.github.io) and [J.-G. Young](http://jgyoung.ca)<br/>
-arxiv:1910.04788 (2019) <br/>
+Physical Review Letters **126**, 038301 (2021)<br/>
+[arXiv link](https://arxiv.org/abs/1910.04788) | 
+[Journal link](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.038301) <br/>
 
 ## Author information
 
