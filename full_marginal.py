@@ -13,7 +13,7 @@ def binom(x,y):
 
 ###############
 
-def one_node_marginals(G):
+def one_node_marginals(G,norm=True):
 
     ### Compute n_{i -> j}
 
@@ -95,7 +95,8 @@ def one_node_marginals(G):
                 temp += g[i][j][t] * h[j][i] * binom(G.number_of_nodes()-t-1,n[i][j]-t)
             P[i][t] = temp
 
-    P = P/np.sum(P[0])
+    if norm:
+        P = P/np.sum(P[0])
     
     return(P.astype(float))
     
